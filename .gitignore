@@ -1,0 +1,16 @@
+# Node
+/app/node_modules
+/app/.angular
+
+# Datasets
+/model/dataset.csv
+/model/new_dataset.csv
+/model/motor_clms_logs2008-2013.xlsx
+/model/motor_clms_logs2013-2023.xls
+/model/motor_clms2008-2013.xlsx
+/model/motor_clms2013-2023.xls
+/model/motor_pols2008-2023.xls
+
+# Model
+/model/.ipynb_checkpoints
+/flask api/model.joblib

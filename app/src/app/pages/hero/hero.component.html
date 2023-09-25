@@ -1,0 +1,184 @@
+<section class="container">
+    <div class="row w-100 mt-5 mb-5">
+        <div class="col-12 flex-center">
+            <img class="title-img" src="../../../assets/images/towing.svg" alt="insurance image">
+        </div>
+        <div class="col-12">
+            <h1>Insurance</h1>
+        </div>
+        <div class="col-12">
+            <p>The insurance industry is a crucial part of the global economy, providing individuals, businesses, and organizations with protection against financial losses due to unforeseen events. The industry offers a wide range of products and services, including life insurance, health insurance, property and casualty insurance, and liability insurance. The Sri Lankan insurance market is primarily dominated by life insurance, but non-life insurance products such as health, property, and motor insurance are gaining traction. The industry is highly regulated by the Insurance Regulatory Commission of Sri Lanka, and the market has seen an influx of foreign insurers, increasing competition and driving innovation. Despite challenges such as low insurance penetration rates and a lack of public awareness, the Sri Lankan insurance industry is expected to experience continued growth and development in the coming years.</p>
+        </div>
+    </div>
+    <div class="row w-100 mt-5 mb-5">
+        <div class="col-12">
+            <mat-tab-group>
+                <mat-tab label="Prediction">
+                    <div class="flex-center-col">
+                        <div class="row w-100 mt-5 mb-5">
+                            <div class="col-lg-6 col-md-12 flex-center">
+                                <img class="stock-img" src="../../../assets/images/analytics.svg" alt="image">
+                            </div>
+                            <div class="col-lg-6 col-md-12 flex-center-col">
+                                <h1>Motor Insurrance Customer Risk Scoring</h1>
+                                <p>Motor insurance customer risk scoring is a process used by insurance companies to assess the likelihood of a customer making a claim on their policy. The process involves collecting and analyzing data on the customer, such as their driving record, age, and the make and model of their vehicle. The data is then used to calculate a risk score, which is used to determine the premium that the customer will pay. Customers with a higher risk score will typically pay a higher premium, as they are considered more likely to make a claim. Motor insurance customer risk scoring has become increasingly sophisticated in recent years, with the use of data analytics and machine learning algorithms enabling insurers to better understand and predict customer behavior. This has enabled insurers to offer more personalized policies and pricing, tailored to the individual risk profiles of their customers. While some have raised concerns about the potential for bias and discrimination in risk scoring algorithms, when done ethically and transparently, motor insurance customer risk scoring can benefit both insurers and customers by improving accuracy and fairness in premium pricing.</p>
+                            </div>
+                        </div>
+                        <div class="row w-100 mt-5 mb-5">
+                            <div class="flex-center-col">
+                                <div class="row w-100 mt-3 mb-3">
+                                    <div class="col-12">
+                                        <form [formGroup]="inputsForm">
+                                            <h4>Customer Details</h4>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Full Name</mat-label>
+                                                <input matInput required type="text" formControlName="inputx">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Customer is Individual or Company?</mat-label>
+                                                <mat-select formControlName="input1">
+                                                    <mat-option value="I">Individual</mat-option>
+                                                    <mat-option value="C">Company</mat-option>
+                                                </mat-select>
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Gender</mat-label>
+                                                <mat-select formControlName="input2">
+                                                    <mat-option value="M">Male</mat-option>
+                                                    <mat-option value="F">Female</mat-option>
+                                                    <mat-option value="Unknown">Unkown</mat-option>
+                                                </mat-select>
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Marital Status</mat-label>
+                                                <mat-select formControlName="input3">
+                                                    <mat-option value="N">Single</mat-option>
+                                                    <mat-option value="M">Married</mat-option>
+                                                    <mat-option value="W">Widowed</mat-option>
+                                                    <mat-option value="S">Sepatated</mat-option>
+                                                    <mat-option value="A">Annulled</mat-option>
+                                                    <mat-option value="D">Divorced</mat-option>
+                                                    <mat-option value="V">Partnership</mat-option>
+                                                </mat-select>
+                                            </mat-form-field>
+
+                                            <h4>Branch Details</h4>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Branch Code</mat-label>
+                                                <input matInput required type="text" formControlName="input4">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>District Code</mat-label>
+                                                <input matInput required type="text" formControlName="input5">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Province Code</mat-label>
+                                                <input matInput required type="text" formControlName="input6">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Zone Code</mat-label>
+                                                <input matInput required type="text" formControlName="input7">
+                                            </mat-form-field>
+
+                                            <h4>Vehicle Details</h4>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Manufacture Year</mat-label>
+                                                <input matInput required type="text" formControlName="input8">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Type of Vehicle</mat-label>
+                                                <input matInput required type="text" formControlName="input9">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Manufacturer</mat-label>
+                                                <input matInput required type="text" formControlName="input10">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Model</mat-label>
+                                                <input matInput required type="text" formControlName="input11">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Tonnage</mat-label>
+                                                <input matInput required type="text" formControlName="input12">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Seating Capacity</mat-label>
+                                                <input matInput required type="text" formControlName="input13">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Type of Fuel</mat-label>
+                                                <mat-select formControlName="input14">
+                                                    <mat-option value="DIESEL">Diesel</mat-option>
+                                                    <mat-option value="PETROL">Petrol</mat-option>
+                                                    <mat-option value="GAS">Gas</mat-option>
+                                                    <mat-option value="ELECTRIC">Electric</mat-option>
+                                                    <mat-option value="HYB_DIESEL">Hybrid Diesel</mat-option>
+                                                    <mat-option value="HYB_PETROL">Hybrid Petrol</mat-option>
+                                                    <mat-option value="PETROL/GAS">Petrol / Gas</mat-option>
+                                                </mat-select>
+                                            </mat-form-field>
+
+                                            <h4>Policy Details</h4>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Main Class of Policy</mat-label>
+                                                <input matInput required type="text" formControlName="input15">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Sub Class of Policy</mat-label>
+                                                <input matInput required type="text" formControlName="input16">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Effective Days</mat-label>
+                                                <input matInput required type="number" formControlName="input17">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Vehicle Value</mat-label>
+                                                <input matInput required type="number" formControlName="input18">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Sum Insured</mat-label>
+                                                <input matInput required type="number" formControlName="input19">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Annual Basic Premium</mat-label>
+                                                <input matInput required type="number" formControlName="input20">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Annual SRCC Premium</mat-label>
+                                                <input matInput required type="number" formControlName="input21">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Annual TC Premium</mat-label>
+                                                <input matInput required type="number" formControlName="input22">
+                                            </mat-form-field>
+                                            <mat-form-field class="w-100">
+                                                <mat-label>Annual Premium Total</mat-label>
+                                                <input matInput required type="number" formControlName="input23">
+                                            </mat-form-field>
+                                        </form>
+                                    </div>
+                                    <div class="col-12 flex-center">
+                                        <button mat-raised-button class="mb-5" (click)="predict()">Predict</button>
+                                    </div>
+                                </div>
+                                <div *ngIf="error" class="row w-100 mt-3 mb-3">
+                                    <div class="col-12">
+                                        <p><strong>{{ errorMsg }}</strong></p>
+                                    </div>
+                                </div>
+                                <div *ngIf="result" class="row w-100 mt-3 mb-3">
+                                    <div class="col-12">
+                                        <h3>Customer Risk Score</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <p><strong>{{ result }}</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+    </div>
+</section>
